@@ -13,7 +13,7 @@ const AboutSection = () => {
 
     return (
         <section>
-            <div className="md:grid md:grid-cols-2 gap-8 items-start py-8 px-4 xl:gap-16 sm:py-16">
+            <div className="md:grid md:grid-cols-2 gap-8 items-start py-2 px-4 xl:gap-16 sm:py-16">
                 <div className="place-self-center md:place-self-start mb-4">
                     <Image
                         src="/images/about.png"
