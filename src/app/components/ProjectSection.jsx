@@ -10,13 +10,15 @@ const projects = [
     title: "Projeto 1 (Feito)",
     description: "Descrição do projeto 1",
     alt: "Imagem do projeto 1",
+    projectLink: "https://github.com/Pedro-hashm",
     tags: ["Completed"]
   },
   {
-    imageUrl: "https://abovepromotions.com/wp-content/uploads/400x300-ph.jpg",
-    title: "Projeto 2 (Ativo)",
-    description: "Descrição do projeto 2",
-    alt: "Imagem do projeto 2",
+    imageUrl: "https://i.imgur.com/gtPdIEr.png",
+    title: "Pagliacci",
+    description: "A cloth store website",
+    alt: "Pagliacci",
+    projectLink: "https://pagliacci.com.br",
     tags: ["Active"]
   },
   {
@@ -24,6 +26,7 @@ const projects = [
     title: "Projeto 3 (Ativo)",
     description: "Descrição do projeto 3",
     alt: "Imagem do projeto 3",
+    projectLink: "https://github.com/Pedro-hashm",
     tags: ["Active"]
   },
   {
@@ -31,6 +34,7 @@ const projects = [
     title: "Projeto 4 (Feito)",
     description: "Descrição do projeto 4",
     alt: "Imagem do projeto 4",
+    projectLink: "https://github.com/Pedro-hashm",
     tags: ["Completed"]
   }
 ];
@@ -76,6 +80,7 @@ const ProjectSection = () => {
             title={project.title}
             description={project.description}
             imgTitle={project.alt}
+            projectLink={project.projectLink}
           />
         ))}
       </div>

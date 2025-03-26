@@ -4,7 +4,8 @@ import Image from 'next/image';
 import { CodeBracketIcon } from '@heroicons/react/24/solid';
 import { EyeIcon } from '@heroicons/react/24/solid';
 
-const ProjectCard = ({ imageUrl, imgTitle, title, description }) => {
+const ProjectCard = ({ imageUrl, imgTitle, title, description, projectLink }) => {
+
     return (
         <div className="flex flex-col p-2">
 
@@ -22,7 +23,7 @@ const ProjectCard = ({ imageUrl, imgTitle, title, description }) => {
                     <button>
                         <div 
                             className="group/btn p-3 border-2 border-[#c0c0c0] rounded-full opacity-0 group-hover:opacity-100 transition duration-300 hover:border-white"
-                            onClick={() => window.open("https://github.com/Pedro-hashm", "_blank")}
+                            onClick={() => window.open(projectLink, "_blank")}
                             >
                             <CodeBracketIcon className="group/btn w-8 h-8 text-[#c0c0c0] group-hover/btn:text-white transition duration-300"/>
                         </div>
