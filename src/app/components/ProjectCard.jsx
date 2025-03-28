@@ -9,7 +9,7 @@ const ProjectCard = ({ imageUrl, imgTitle, title, description, projectLink }) =>
     return (
         <div className="flex flex-col p-2">
 
-            <div className="relative group w-[400px] h-[300px] overflow-hidden rounded-lg">
+            <div className="relative group w-full sm:w-[400px] h-[300px] overflow-hidden rounded-lg">
                 <Image
                     src={imageUrl}
                     alt={imgTitle}

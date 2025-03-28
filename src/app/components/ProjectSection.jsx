@@ -41,6 +41,14 @@ const projects = [
     tags: ["Active"]
   },
   {
+    imageUrl: "https://i.imgur.com/8Q7DOOj.png",
+    title: "React Portfolio Website",
+    description: "A personal portfolio website built with React, showcasing projects, skills, and experiences. It features a modern design and responsive layout for an optimal user experience.",
+    alt: "Imagem do projeto 4",
+    projectLink: "https://github.com/Pedro-hashm/portfolio",
+    tags: ["Active"]
+  },
+  {
     imageUrl: "https://i.imgur.com/xkddUrA.png",
     title: "Jhonny Jazz",
     description: "Jhonny Jazz is an e-commerce platform offering a variety of products, from home goods to electronics. It focuses on providing high-quality, practical items designed to enhance everyday life, featuring easy navigation, promotions, and customer satisfaction guarantees.",
@@ -92,7 +100,7 @@ const ProjectSection = () => {
         ))}
       </div>
 
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12" >
+      <ul ref={ref} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 w-full px-4" >
         {filteredProjects.map((project, index) => (
           <motion.li
             variants={cardVariants} 
