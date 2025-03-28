@@ -50,7 +50,7 @@ const HeroSection = () => {
             </div>
 
             <div className="col-span-5 place-self-center">
-                <div className="rounded-full bg-[#181818] w-[400px] h-[400px] relative lg:w-[450px] lg:h-[450px] mt-5 ml-4">
+                <div className="rounded-full bg-[#181818] w-[250px] h-[250px] relative lg:w-[450px] lg:h-[450px] mt-5 ml-4">
                     <Image
                         src="https://i.imgur.com/CpLWTp7.jpeg"
                         alt="Picture of the author"
