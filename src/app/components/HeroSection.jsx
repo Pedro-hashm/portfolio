@@ -3,11 +3,17 @@ import React from "react";
 import "../styles/HeroSection.css";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
     <section>
-        <div className="grid grid-cols-1 sm:grid-cols-12">
+        <motion.div 
+        className="grid grid-cols-1 sm:grid-cols-12"
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.3 }}
+        >
 
             <div className="col-span-7 place-self-center text-center sm:text-left mb-4 mr-4">
                 <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold"> 
@@ -44,18 +50,17 @@ const HeroSection = () => {
             </div>
 
             <div className="col-span-5 place-self-center">
-                <div className="rounded-full bg-[#181818] w-[400px] h-[400px] relative lg:w-[500px] lg:h-[500px] mt-5 ml-4">
+                <div className="rounded-full bg-[#181818] w-[400px] h-[400px] relative lg:w-[450px] lg:h-[450px] mt-5 ml-4">
                     <Image
-                        src="/images/cat.png"
+                        src="/images/myself.jpg"
                         alt="Picture of the author"
-                        className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                        width={300}
-                        height={300}
+                        className="absolute transform object-cover rounded-full border-4 border-[#181818]"
+                        layout="fill" // Preenche o círculo
                     />
                 </div>
             </div>
 
-        </div>
+        </motion.div>
     </section>
   );
 }
