@@ -52,7 +52,7 @@ const HeroSection = () => {
             <div className="col-span-5 place-self-center">
                 <div className="rounded-full bg-[#181818] w-[400px] h-[400px] relative lg:w-[450px] lg:h-[450px] mt-5 ml-4">
                     <Image
-                        src="/images/myself.jpg"
+                        src="https://i.imgur.com/CpLWTp7.jpeg"
                         alt="Picture of the author"
                         className="absolute transform object-cover rounded-full border-4 border-[#181818]"
                         layout="fill" // Preenche o círculo

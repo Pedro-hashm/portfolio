@@ -17,7 +17,7 @@ const AboutSection = () => {
             <div className="md:grid md:grid-cols-2 gap-8 items-start py-2 px-4 xl:gap-16 sm:py-16">
                 <div className="place-self-center md:place-self-start mb-4 mt-7">
                     <Image
-                        src="/images/code.png"
+                        src="https://i.imgur.com/5dnQKVC.png"
                         alt="Codes and more codes"
                         width={900}
                         height={900}
