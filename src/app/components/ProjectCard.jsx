@@ -9,13 +9,13 @@ const ProjectCard = ({ imageUrl, imgTitle, title, description, projectLink }) =>
     return (
         <div className="flex flex-col p-2">
 
-            <div className="relative group w-full sm:w-[400px] h-[300px] overflow-hidden rounded-lg">
+            <div className="relative group w-full sm:w-[280px] sm:h-[280px] lg:w-[400px] lg:w-[400px] overflow-hidden rounded-lg">
                 <Image
                     src={imageUrl}
                     alt={imgTitle}
                     width={400}
                     height={300}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover rounded-lg"
                 >
                 </Image>
 
