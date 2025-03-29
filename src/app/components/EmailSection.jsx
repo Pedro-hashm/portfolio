@@ -55,7 +55,7 @@ function EmailSection() {
             </div>
         </div>
 
-        <div className="flex flex-col grid-col-2 ml-8">
+        <div className="flex flex-col grid-col-2">
             <form onSubmit={handleSubmit} className="flex flex-col gap-2">
                 <div>
                     <label

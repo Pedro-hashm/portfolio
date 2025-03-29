@@ -4,6 +4,7 @@ import Link from "next/link";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
+import { motion } from "framer-motion";
 
 const navLinks = [
     {
@@ -37,10 +38,17 @@ const NavBar = () => {
                             <Bars3Icon className="h-5 w-5" />
                         </button>
                     ) : (
-                        <button className="text-slate-200 flex items-center px-3 py-2 border rounded border-slate-200 hover:text-white hover:border-white"
-                            onClick={() => setNavbarOpen(false)}
+                        <button 
+                        className="text-slate-200 flex items-center px-3 py-2 border rounded border-slate-200 hover:text-white hover:border-white"
+                        onClick={() => setNavbarOpen(false)}
+                        >
+                            <motion.div
+                                initial={{ rotate: 0 }}
+                                animate={{ rotate: 180 }}
+                                transition={{ duration: 0.5 }}
                             >
-                            <XMarkIcon className="h-5 w-5" />
+                                <XMarkIcon className="h-5 w-5" />
+                            </motion.div>
                         </button>
                     )}
                 </div>
@@ -56,7 +64,13 @@ const NavBar = () => {
                     </ul>
                 </div>
             </div>
-            {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
+            <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={navbarOpen ? { opacity: 1, y: 0 } : { opacity: 0, y: -20 }}
+            transition={{ duration: 0.5 }}
+            >
+                {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
+            </motion.div>
         </nav>
     );
 }

@@ -11,7 +11,7 @@ const projects = [
   {
     imageUrl: "https://i.imgur.com/6JNdGHw.png",
     title: "WhatPy",
-    description: "WhatPy is a Python-based automation tool for sending WhatsApp messages using Selenium, making it easy to interact with contacts programmatically. 🚀",
+    description: "WhatPy is a Python-based automation tool for sending WhatsApp messages using customtkinter, making it easy to interact with contacts programmatically. 🚀",
     alt: "Imagem do projeto 4",
     projectLink: "https://labpei-ifpe-paulista.github.io/jogo-confederacao-equador/",
     tags: ["Completed"]

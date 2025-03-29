@@ -28,25 +28,25 @@ const AboutSection = () => {
                     <h1 className="text-4xl mb-4 sm:text-5xl lg:text-6xl font-extrabold">About me</h1>
                     <p className="text-white text-base sm:text-lg lg:text-xl">I’m a passionate developer who loves turning ideas into functional and engaging digital experiences. With a strong foundation in full-stack development, I enjoy creating intuitive interfaces, optimizing performance, and tackling new challenges. Always learning, always building, let’s create something amazing!</p>
                        {/* Menu de Abas */}
-                       <div className="flex mb-4">
-                        <TabButton
-                            active={tab === "skills"}
-                            selectTab={() => handleTabChange("skills")}
-                        >
-                            Skills
-                        </TabButton>
-                        <TabButton
-                            active={tab === "education"}
-                            selectTab={() => handleTabChange("education")}
-                        >
-                            Education
-                        </TabButton>
-                        <TabButton
-                            active={tab === "experience"}
-                            selectTab={() => handleTabChange("experience")}
-                        >
-                            Experience
-                        </TabButton>
+                       <div className="flex mb-2 mt-2">
+                            <TabButton
+                                active={tab === "skills"}
+                                selectTab={() => handleTabChange("skills")}
+                            >
+                                Skills
+                            </TabButton>
+                            <TabButton
+                                active={tab === "education"}
+                                selectTab={() => handleTabChange("education")}
+                            >
+                                Education
+                            </TabButton>
+                            <TabButton
+                                active={tab === "experience"}
+                                selectTab={() => handleTabChange("experience")}
+                            >
+                                Experience
+                            </TabButton>
                         </div>
                         <div className="mt-3 flex">
                             {tab === "skills" && (
