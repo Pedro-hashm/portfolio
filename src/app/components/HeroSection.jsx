@@ -38,7 +38,7 @@ const HeroSection = () => {
                     />
                 </h1>
                 <p className="text-slate-400 text-base sm:text-lg lg:text-xl">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                </p>
+                From cutting-edge e-commerce platforms to creative web and game development, I bring technical expertise and creative problem-solving to the table. Whether you need a high-performing online store or a custom digital solution, I’m here to transform your vision into reality—with speed, precision, and style.                </p>
                 <div>
                     <button className="text-white font-bold rounded-full w-full sm:fit bg-gradient-to-br from-yellow-500 via-pink-400 to-purple-600 px-4 py-4 mr-2 mt-4">
                         Hire me
