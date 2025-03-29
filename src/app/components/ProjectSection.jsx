@@ -41,7 +41,7 @@ const projects = [
     tags: ["Active"]
   },
   {
-    imageUrl: "https://i.imgur.com/8Q7DOOj.png",
+    imageUrl: "https://i.imgur.com/ByqcY7Z.png",
     title: "React Portfolio Website",
     description: "A personal portfolio website built with React, showcasing projects, skills, and experiences. It features a modern design and responsive layout for an optimal user experience.",
     alt: "Imagem do projeto 4",

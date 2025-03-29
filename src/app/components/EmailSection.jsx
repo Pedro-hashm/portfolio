@@ -42,8 +42,7 @@ function EmailSection() {
                 Let's Connect!
             </h1>
             <p className="text-[#858585]">
-                lore ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Have an exciting project in mind? Whether you’re looking to build a custom Shopify store, launch a high-performance web app, or bring your digital vision to life, I’m here to help. Let’s collaborate and create something impactful together.
             </p>
             <div className="flex flex-row gap-2">
                 <Link href="https://github.com/Pedro-hashm" target="_blank">
