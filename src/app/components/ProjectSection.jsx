@@ -83,7 +83,7 @@ const ProjectSection = () => {
     <section id='projects'>
 
       <div className="md:grid md:grid-cols-1 grid place-items-center px-4 mt-2"> 
-        <h1 className="text-4xl mb-4 sm:text-2xl lg:text-3xl font-extrabold ">Meus Projetos</h1>
+        <h1 className="text-4xl mb-4 sm:text-2xl lg:text-3xl font-extrabold ">My Projects</h1>
       </div>
       
       <div className="flex flex-row justify-center gap-3 px-4 mt-6 mb-4">
